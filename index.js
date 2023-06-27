@@ -4,11 +4,7 @@ let wordArray = word.split('')
 console.log(wordArray);
 let reversedWord = wordArray.reverse().join('')
 console.log(reversedWord);
-if  (reversedWord === word){
-  return true
-}else{
-  return false
-}
+return reversedWord === word
 }
 
 /* 
